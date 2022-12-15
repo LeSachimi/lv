@@ -11,3 +11,11 @@ h2
 {
     color: powderblue;
 }
+table
+{
+    border-collapse: collapse;
+}
+td
+{
+    border: 2px solid black;
+}
