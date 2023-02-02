@@ -6,7 +6,7 @@
         <title>Un site plutôt sympa</title>
     </head>
     <body>
-        <?php "<h1 id="titre">Bienvenue".$_GET['prenom'].$_GET['nom']."sur le site de Sacha Bellet</h1>"?>
+        <!-- <?php "<h1 id="titre">Bienvenue".$_GET['prenom'].$_GET['nom']."sur le site de Sacha Bellet</h1>"?> -->
 
         <h2>Un site fait à l'occasion d'un projet en classe: Ma première page web</h2>
         <h3>Le lieu ou j'étudie :</h3>
