@@ -6,19 +6,15 @@
         <title>Un site plutôt sympa</title>
     </head>
     <body>
-        <h1 id="titre">Bienvenue sur le site de Sacha Bellet</h1>
+        <?php "<h1 id="titre">Bienvenue".$_GET['prenom'].$_GET['nom']."sur le site de Sacha Bellet</h1>"?>
 
         <h2>Un site fait à l'occasion d'un projet en classe: Ma première page web</h2>
-
-        <form method="get" action="index.php">
+        <form method="get" action="form2.php">
             <label>NOM : </label>
             <input type="text" name="nom"> <br>
             <label>Prénom : </label>
             <input type="text" name="prenom"> <br>
-
-            <input type="submit" value="Envoyer">
         </form>
-
         <h3>Le lieu ou j'étudie :</h3>
     <br/>
         <p>
